@@ -19,8 +19,8 @@ section
         .col-12.col-sm-8
           p 
             | La inscripción a cursos MOOC del SENA se realizan en la página 
-            strong www.senavirtual.edu.co 
-            | en la opción Cursos Cortos- Habilidades digitales; así mismo la Entidad podrá realizar procesos de divulgación adicional mediante la página web o redes sociales, en donde se ofrecerá la indicación respectiva.
+            a.fw-bold(href='http://www.senavirtual.edu.co' target="_blank") www.senavirtual.edu.co
+            |  en la opción Cursos Cortos- Habilidades digitales; así mismo la Entidad podrá realizar procesos de divulgación adicional mediante la página web o redes sociales, en donde se ofrecerá la indicación respectiva.
       
       .row(titulo="3. ¿Cuántas horas se certifican?").Cont01
         .col-4.d-none.d-sm-block
@@ -63,7 +63,7 @@ section
         .col-12.col-sm-8
           p 
             | Los certificados de los cursos del SENA se encuentran disponibles en el portal 
-            strong http://oferta.senasofiaplus.edu.co/sofia-oferta/
+            a.fw-bold(href='http://oferta.senasofiaplus.edu.co/sofia-oferta/' target="_blank") http://oferta.senasofiaplus.edu.co/sofia-oferta/
             |  en la opción Certificados.
       
       .row(titulo="8. ¿Tengo problemas para inscribirme al curso mooc, a dónde puedo dirigirme?").Cont01
@@ -72,11 +72,11 @@ section
             img.w-75.mx-auto(src="@/assets/curso/img08.svg", alt="Introducción")
         .col-12.col-sm-8
           p 
-            | En caso de problemas, deberá consultar los elementos de ayuda disponibles en el portal Sofia Plus
-            strong www.senasofiaplus.edu.co
+            | En caso de problemas, deberá consultar los elementos de ayuda disponibles en el portal Sofia Plus 
+            a.fw-bold(href='http://www.senasofiaplus.edu.co' target="_blank") www.senasofiaplus.edu.co
             | , teniendo en cuenta además que los datos suministrados en la inscripción deben ser verídicos y que el correo electrónico a utilizar debe ser de uso personal y contar con la información para poder acceder a dicho buzón sin dificultades.
       
-      .row(titulo="9. ¿Que diferencia hay entre un curso mooc y un cursocomplementario?").Cont01
+      .row(titulo="9. ¿Que diferencia hay entre un curso mooc y un curso complementario?").Cont01
         .col-4.d-none.d-sm-block
           figure
             img.w-75.mx-auto(src="@/assets/curso/img15.svg", alt="Introducción")
@@ -97,7 +97,7 @@ section
           figure
             img.w-75.mx-auto(src="@/assets/curso/img10.svg", alt="Introducción")
         .col-12.col-sm-8
-          p Coorresponde a una estrategia de formación basada en el aprendizaje autogestionado, donde el aprendiz es el responsable de su propia gestión académica, mediante un papel activo en el estudio de los temas y el desarrollo de actividades encaminadas a promover las competencias propuestas en el programa.
+          p Corresponde a una estrategia de formación basada en el aprendizaje autogestionado, donde el aprendiz es el responsable de su propia gestión académica, mediante un papel activo en el estudio de los temas y el desarrollo de actividades encaminadas a promover las competencias propuestas en el programa.
       
       .row(titulo="12. ¿El curso mooc tiene instructor?").Cont01
         .col-4.d-none.d-sm-block
@@ -113,9 +113,9 @@ section
         .col-12.col-sm-8
           p 
             | En caso de situaciones o inconvenientes con el desarrollo del curso, se recomienda consultar el material de ayuda disponible en los materiales del curso, también los tutoriales, manuales y videos instructivos disponibles en 
-            strong www.senavirtual.edu.co
+            a.fw-bold(href='http://www.senavirtual.edu.co' target="_blank") www.senavirtual.edu.co
             |  y en 
-            strong http://oferta.senasofiaplus.edu.co/sofia-oferta/ 
+            a.fw-bold(href='http://oferta.senasofiaplus.edu.co/sofia-oferta/'  target="_blank") http://oferta.senasofiaplus.edu.co/sofia-oferta/
       
       .row(titulo="14. ¿Si tengo algún problema con el desarrollo del curso donde puedo comunicarme?").Cont01
         .col-4.d-none.d-sm-block
